@@ -20,7 +20,7 @@ Dataset yang digunakan adalah **Electric Vehicle Charging Patterns** dari Kaggle
 5. Penyesuaian parameter seperti jumlah stasiun untuk meningkatkan efisiensi (Optimasi)
 6. Visualisasi untuk memahami pola pengisian dan hubungan antar variabel
 
-## Hasil/Temua
+## Hasil/Temuan
 - Rata-rata Durasi Pengisian 2.27 jam
 - Waktu Puncak Pengisian yaitu Evening
 - Utilisasi Stasiun: 3.86% (sebelum optimasi) dan 3.82% (setelah optimasi)
@@ -29,12 +29,7 @@ Dataset yang digunakan adalah **Electric Vehicle Charging Patterns** dari Kaggle
 ## Cara Menjalankan Simulasi
 1. Pastikan Python dan library yang diperlukan terinstal
    ```bash
-   pandas
-   numpy
-   matplotlib
-   seaborn
-   simpy
-   kagglehub
+   pip install -r requirements.txt
 2. Unduh dataset
    ```bash
    import kagglehub
